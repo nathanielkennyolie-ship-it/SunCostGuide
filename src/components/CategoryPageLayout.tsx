@@ -94,7 +94,7 @@ export default function CategoryPage({ name, description, slug }: Props) {
         {posts.length === 0 ? (
           <p className="text-ink-muted">No articles yet. Check back soon.</p>
         ) : (
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {posts.map((post) => (
               <ContentCard
                 key={post.slug}
