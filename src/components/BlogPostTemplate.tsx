@@ -9,6 +9,7 @@ interface BlogPost {
   readTime: string;
   metaDescription: string;
   body: string;
+  featured_image?: string;
 }
 
 export default function BlogPostTemplate({ post }: { post: BlogPost }) {
@@ -52,6 +53,14 @@ export default function BlogPostTemplate({ post }: { post: BlogPost }) {
         <p className="mt-4 text-lg text-ink-muted leading-relaxed">
           {post.metaDescription}
         </p>
+
+        {post.featured_image && (
+          <img
+            src={post.featured_image}
+            alt=""
+            className="w-full aspect-[16/9] object-cover rounded-xl my-10"
+          />
+        )}
 
         <hr className="my-10 border-warm-gray-200" />
 
