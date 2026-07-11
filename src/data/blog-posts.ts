@@ -52,35 +52,367 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "solar-panel-cost-2026",
-    title: "Solar Panel Cost in 2026: What You'll Actually Pay",
+    title: "Solar Panel Cost in 2026: What I'd Tell You If You Were a Friend Asking",
     category: "Cost & Savings",
     categorySlug: "cost-and-savings",
     date: "July 11, 2026",
-    readTime: "12 min read",
+    readTime: "22 min read",
     metaDescription:
-      "A state-by-state breakdown of real installation prices, financing options, and hidden costs — with a clear note on how the federal tax credit no longer applies to purchases.",
+      "What solar panels actually cost in 2026, state by state — with the federal tax credit change explained. No inflated 'after-credit' pricing.",
     featured: true,
     body: `
       <p>The solar industry has a transparency problem. Most websites quote a national average that doesn't reflect what you'll actually pay in your state, with your roof, on your timeline. And many still subtract a federal tax credit that no longer exists for cash and loan purchases.</p>
+
       <p>Here's the real 2026 picture — gross prices, no imaginary discounts.</p>
 
-      <h2>National Average Cost (2026)</h2>
-      <p>The average residential solar installation costs between $2.50 and $3.10 per watt — gross price, before any incentives. For a typical 7-10 kW system, that works out to $17,500 to $31,000.</p>
-      <p><strong>Important:</strong> There is currently no federal tax credit for cash or loan purchases. The Section 25D credit expired December 31, 2025. If a website or salesperson quotes a "net price after federal tax credit," that credit does not exist for you as a buyer. The only way to have a federal credit applied to your project in 2026 is through a lease or PPA (the leasing company claims Section 48E instead).</p>
+      <!-- AFFILIATE CTA -->
+      <div style="border:1px solid #f59e0b;border-radius:0.75rem;padding:1.5rem;background:#fffbeb;margin:2rem 0;">
+        <p style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#d97706;margin-bottom:0.5rem;">Ready to Explore Roles?</p>
+        <p style="font-size:1.125rem;font-weight:700;color:#1a1f2e;margin-bottom:0.5rem;">Want to Skip the Guesswork?</p>
+        <p style="font-size:0.875rem;color:#6b7280;margin-bottom:1rem;">Everything below will get you close. A real quote from an installer who knows your roof and your state gets you exact.</p>
+        <a href="#" style="display:inline-block;padding:0.75rem 1.5rem;background:#f59e0b;color:#fff;border-radius:9999px;font-weight:600;font-size:0.875rem;text-decoration:none;">Get Free Local Solar Quotes →</a>
+        <p style="font-size:0.75rem;color:#9ca3af;font-style:italic;margin-top:1rem;">Disclosure: that's an affiliate link. If you request a quote through it, I may earn a commission — costs you nothing extra. Full details on the <a href="/disclosure" style="color:#d97706;">disclosure page</a>.</p>
+      </div>
 
-      <h2>What Drives Price Differences by State</h2>
-      <p>Three factors determine what you'll pay: labor costs (higher in states with prevailing wage requirements), permitting fees (varies wildly by municipality), and competition (more installers = better prices). California, Texas, and Florida are the most competitive markets. Rural areas and states with fewer installers typically see higher per-watt prices.</p>
+      <div class="toc" style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1.5rem;background:#faf8f6;margin:2rem 0;">
+        <p style="font-size:1rem;font-weight:600;color:#1a1f2e;margin-bottom:0.75rem;">📖 What's in This Guide</p>
+        <ol style="margin:0;padding-left:1.25rem;font-size:0.875rem;color:#6b7280;display:flex;flex-direction:column;gap:0.4rem;">
+          <li><a href="#transparency-problem" style="color:#d97706;text-decoration:none;">Why Nobody Can Just Give You a Straight Answer</a></li>
+          <li><a href="#national-average" style="color:#d97706;text-decoration:none;">Okay, Fine — Here's the National Number</a></li>
+          <li><a href="#cost-breakdown" style="color:#d97706;text-decoration:none;">What You're Actually Paying For</a></li>
+          <li><a href="#tax-credit" style="color:#d97706;text-decoration:none;">The Tax Credit Thing Everyone's Getting Wrong</a></li>
+          <li><a href="#state-differences" style="color:#d97706;text-decoration:none;">Why Your Neighbor's Quote Isn't Yours</a></li>
+          <li><a href="#state-tiers" style="color:#d97706;text-decoration:none;">What It Costs Where You Live</a></li>
+          <li><a href="#hidden-costs" style="color:#d97706;text-decoration:none;">The Costs That Show Up After You've Already Signed</a></li>
+          <li><a href="#financing" style="color:#d97706;text-decoration:none;">Cash, Loan, Lease, or PPA — Which One Actually Wins</a></li>
+          <li><a href="#reading-quotes" style="color:#d97706;text-decoration:none;">How to Not Get Taken for a Ride</a></li>
+          <li><a href="#pencils-out" style="color:#d97706;text-decoration:none;">Is This Actually a Good Idea for You</a></li>
+          <li><a href="#faq" style="color:#d97706;text-decoration:none;">Questions I Get Asked Constantly</a></li>
+          <li><a href="#final-thoughts" style="color:#d97706;text-decoration:none;">Where That Leaves You</a></li>
+        </ol>
+      </div>
 
-      <h2>Hidden Costs to Watch For</h2>
-      <p>Most quoted prices include the panels, inverter, and installation. Watch for these potential extras: electrical panel upgrade ($1,000-3,000 if needed), roof repair or replacement (varies), tree trimming ($200-800), and main panel upgrade ($1,500-3,000 for older homes).</p>
+      <!-- STAT CALLOUT ROW -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0.75rem;margin:2rem 0;">
+        <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:0.75rem;padding:1rem;text-align:center;">
+          <div style="font-size:1.5rem;font-weight:700;color:#1a1f2e;">$2.30–$3.60<span style="font-size:0.875rem;font-weight:400;color:#6b7280;">/W</span></div>
+          <div style="font-size:0.75rem;color:#6b7280;margin-top:0.25rem;">What you'll actually see on quotes</div>
+        </div>
+        <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:0.75rem;padding:1rem;text-align:center;">
+          <div style="font-size:1.5rem;font-weight:700;color:#1a1f2e;">$0</div>
+          <div style="font-size:0.75rem;color:#6b7280;margin-top:0.25rem;">Federal credit if you buy</div>
+        </div>
+        <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:0.75rem;padding:1rem;text-align:center;">
+          <div style="font-size:1.5rem;font-weight:700;color:#1a1f2e;">30%</div>
+          <div style="font-size:0.75rem;color:#6b7280;margin-top:0.25rem;">Federal credit if you lease/PPA</div>
+        </div>
+        <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:0.75rem;padding:1rem;text-align:center;">
+          <div style="font-size:1.5rem;font-weight:700;color:#1a1f2e;">6–10</div>
+          <div style="font-size:0.75rem;color:#6b7280;margin-top:0.25rem;">Typical break-even (yrs)</div>
+        </div>
+      </div>
 
-      <h2>Financing vs. Cash Purchase</h2>
-      <p>Cash purchases save you the most money long-term. Solar loans add 20-35% to the total cost through interest and fees — often hidden in the quoted price. If you can't pay cash, a home equity loan or HELOC typically offers better terms than a solar-specific loan. Note that a lease or PPA is the only path to any federal tax benefit on your project.</p>
+      <a name="transparency-problem"></a>
+      <h2>Why Nobody Can Just Give You a Straight Answer</h2>
+      <p>Here's something that used to genuinely bother me before I started digging into this properly: ask ten different solar websites what panels cost, and you'll get ten different numbers, most of them presented with total confidence, and most of them not actually wrong so much as incomplete. Your price depends on your state, your roof, your electrical panel's condition, which installer shows up, and — this is the part that's changed and most sites haven't caught up on — whether the person writing the guide bothered to check what happened to the federal tax credit.</p>
+      <p>I want to be direct about that last piece because it's the reason I sat down to rewrite this whole guide rather than just tweak a few numbers. For most of the last decade, a 30% federal tax credit was just... baked into the conversation. Every calculator subtracted it automatically. Every salesperson quoted you the "after-credit" price like it was the real price. Then in July 2025, that changed for a huge chunk of buyers, and as of mid-2026, I'm still finding calculators and blog posts — some from sites I'd otherwise trust — quoting the old math like nothing happened.</p>
+      <p>So here's my actual promise for this guide: every number below is the real, gross, before-any-incentive price, clearly labeled, and I'll tell you exactly who still qualifies for what federal help and who doesn't. No quiet assumptions.</p>
 
-      <h2>State-by-State Cost Ranges (2026)</h2>
-      <p>Using NREL's latest data, here are rough gross cost ranges per watt by region: Southwest (AZ, NM, NV): $2.40-2.70/watt — best sun + competitive market. California: $2.60-3.00/watt — high labor costs offset by high competition. Northeast (NY, MA, CT): $2.80-3.20/watt — higher labor, slower permitting. Southeast (FL, GA, NC): $2.40-2.80/watt — competitive, good sun. Midwest (IL, OH, MI): $2.70-3.10/watt — less competition, shorter season. Northwest (OR, WA): $2.60-3.00/watt — lower sun hours offset by good rates.</p>
+      <!-- IMAGE 2 -->
+      <p style="font-size:0.875rem;font-weight:600;color:#1a1f2e;margin-bottom:0.25rem;">How Much Does Solar Cost in 2026?</p>
+      <div style="border-radius:0.75rem;overflow:hidden;margin:1rem 0;">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xo-wjPQxq4E" title="How Much Does Solar Cost in 2026?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:0.75rem;"></iframe>
+      </div>
+      <p style="font-size:0.75rem;color:#9ca3af;margin-bottom:1.5rem;">A decent primer on where 2026 solar pricing actually stands — worth five minutes before you get your first quote.</p>
 
-      <blockquote>The best way to get an accurate price is to get at least three quotes from local installers, compare equipment proposals line by line, and ask about all fees before signing. If a quote shows a "post-tax-credit" price for a purchase, that number is misleading — crunched the gross price instead.</blockquote>
+      <div style="background:#faf8f6;border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem;margin:1.5rem 0;">
+        <p style="font-size:0.8rem;color:#6b7280;font-style:italic;">TODO: Replace with actual image. Suggested: close-up of a solar quote/invoice with a calculator nearby. Caption: "Read the fine print on any 2026 quote like you're expecting it to be wrong — because a lot of them still are." Use Unsplash/Pexels search: "solar quote document calculator"</p>
+      </div>
+
+      <a name="national-average"></a>
+      <h2>Okay, Fine — Here's the National Number</h2>
+      <p>I'll give you the average, because you came here for a number and it'd be annoying to make you wait. Just don't treat it as a quote.</p>
+      <p>Across the sources I trust most — EnergySage's marketplace data, NREL's benchmark cost tracking, and a handful of independent 2026 cost analyses — residential solar in the U.S. runs <strong>$2.30 to $3.60 per watt</strong> before any incentives, with most homeowners landing closer to <strong>$2.75–$2.95 per watt</strong> as an average.</p>
+      <p>Translated into actual dollars, for the system sizes most people end up needing:</p>
+      <ul>
+        <li><strong>Small system (4–6 kW):</strong> somewhere around $11,000 – $20,000</li>
+        <li><strong>Medium system (7–10 kW):</strong> $18,000 – $30,000 — this is where most homes land</li>
+        <li><strong>Large system (11–15 kW):</strong> $28,000 – $45,000</li>
+      </ul>
+      <p>A typical American home needs roughly 8 to 12 kW to meaningfully dent its electric bill, which puts most people squarely in that $20,000–$31,000 gross range before touching any incentive.</p>
+      <p>For what it's worth, prices are still meaningfully better than they were ten years ago — NREL had the average around $3.16/watt back then — even with 2025's tariff pressure nudging things up a bit heading into 2026. It's not a straight line down, but the long trend is still in your favor.</p>
+      <p>And I'll say the quiet part again because it matters: "before incentives" means before incentives, full stop, no federal credit quietly subtracted. If a number you're seeing elsewhere looks suspiciously lower than what I've laid out, check whether it's assuming a lease or PPA, or whether the page you're reading was written before the rules changed and just never got updated.</p>
+
+      <a name="cost-breakdown"></a>
+      <h2>What You're Actually Paying For</h2>
+      <p>Fair question, and one I had myself early on: if panels keep getting cheaper every year, why hasn't the total price dropped just as fast? Because the panels themselves are a smaller slice of your bill than you'd think.</p>
+      <p>Here's roughly how a typical 2026 quote breaks down:</p>
+      <ul>
+        <li><strong>Panels: ~12–30% of the total</strong> (sources disagree on the exact split, but it's consistently a minority share, not the majority — this genuinely surprises most people)</li>
+        <li><strong>Inverter: ~10%</strong></li>
+        <li><strong>Mounting hardware and racking: ~15%</strong></li>
+        <li><strong>Wiring, disconnects, monitoring gear (what installers call "balance of system"):</strong> usually a flat $1,500–$3,000</li>
+        <li><strong>Labor: ~15–25%</strong></li>
+        <li><strong>Permits and utility interconnection: ~5–8%</strong></li>
+        <li><strong>Everything else — design, sales, company overhead — often the single biggest line item, sometimes 30%+ of the whole quote</strong></li>
+      </ul>
+      <p>That last one is where I'd focus your attention if you only have energy to scrutinize one thing. I've seen — and this checks out across multiple independent quote reviews from 2026 — two installers quote the <em>exact same panels, same inverter, same system size</em> and come in $4,000 to $8,000 apart. Not because one installer found cheaper hardware. Because one runs leaner than the other. Which means getting multiple quotes isn't really about comparing solar panels. It's about comparing overhead, dressed up as a hardware comparison.</p>
+      <p>A few specific numbers worth having in your back pocket when a quote lands in your inbox:</p>
+      <ul>
+        <li><strong>Labor</strong> usually runs <strong>$0.50–$0.75 per watt</strong> in a reasonably competitive market.</li>
+        <li><strong>Permits and inspections</strong> should total <strong>$500–$1,500</strong> for a normal residential job. If you're staring at $2,000–$3,500+ in this line, ask them to itemize it — that's very often a soft-cost markup wearing a permit-fee costume.</li>
+        <li><strong>Balance-of-system components</strong> typically add <strong>$1,500–$3,000</strong>.</li>
+        <li><strong>A panel upgrade</strong>, if your home's electrical service is maxed out (very common in older homes with 100-amp service, or a 200-amp panel with no open breaker slots), runs <strong>$1,500–$4,500</strong> — and this one's legitimate if your site visit actually turned it up, not a scare tactic.</li>
+      </ul>
+      <p>Rough rule of thumb I use: if your cost-per-watt is under $2.60, ask pointed questions about equipment tier and how long the workmanship warranty actually is. If it's north of $3.80 and your roof isn't unusual, get a second opinion before you sign anything.</p>
+
+      <div style="background:#faf8f6;border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem;margin:1.5rem 0;">
+        <p style="font-size:0.8rem;color:#6b7280;font-style:italic;">TODO: Replace with actual image. Suggested: photo showing solar system hardware components (inverter, mounting rails, wiring) laid out or installed — a real installer's work-in-progress shot reads well here. Caption: "This is the part nobody photographs for the brochure — and it's most of what you're actually paying for." Use Unsplash/Pexels search: "solar panel inverter wiring installation"</p>
+      </div>
+
+      <a name="tax-credit"></a>
+      <h2>The Tax Credit Thing Everyone's Getting Wrong</h2>
+      <p>Alright. This is the section I actually care most about getting right, because getting it wrong costs real money, not just an inconvenience.</p>
+      <p><strong>What changed:</strong> for close to twenty years, in one form or another, the federal government let homeowners who bought or financed solar with cash or a loan claim 30% of the total installed cost back on their federal taxes. It was called the Residential Clean Energy Credit — Section 25D, if you want the exact tax code reference — and it was, without much competition, the single biggest financial lever in the entire industry.</p>
+      <p>In July 2025, Congress passed something called the "One Big Beautiful Bill Act." Buried in it: Section 25D got repealed for anything placed in service after December 31, 2025. Not phased down gradually the way earlier laws had scheduled it. Just gone, for anyone buying or financing a system with a loan.</p>
+      <p><strong>What that actually means for you:</strong> if you're paying cash or financing through a standard solar loan or a HELOC in 2026, your federal tax credit is <strong>zero dollars</strong>. I want to say that plainly because a genuinely surprising number of calculators, and even a few salespeople who apparently haven't updated their pitch deck, are still quietly subtracting 30% like nothing happened. If you see a quote showing an "after-credit" price and you're buying or financing with a loan, that number is describing a world that ended on December 31, 2025.</p>
+      <p><strong>Here's the one door that's still open:</strong> there's a separate credit — Section 48E — aimed at businesses, and it's still fully active. If a company <em>owns</em> the solar equipment on your roof and leases it back to you (a solar lease) or sells you the power it produces (a PPA — power purchase agreement), that company can claim the 30% credit on equipment it owns, and depending on how competitive the market is, some of that value might make its way back to you as a lower monthly rate. You never see the credit directly. You just might see its shadow in your price.</p>
+      <p>Which creates a slightly odd situation that didn't used to exist: <strong>buying</strong> — which has always been, and honestly still is, the stronger financial move for most people — now gets zero federal help. <strong>Leasing</strong>, historically the weaker choice long-term, is currently the <em>only</em> way to have any federal credit touch your project at all.</p>
+      <p>I don't think that flips my overall advice. Buying still tends to save you meaningfully more over 15-25 years, mostly because you dodge the lease's annual payment escalator (typically climbing 2.9%–3.9% every single year) and you keep every dollar of your own electricity savings instead of splitting that value with a leasing company. But the gap is genuinely narrower than it used to be, and I'd actually run both numbers for your specific situation rather than assume buying wins by the same wide margin it did back in 2024.</p>
+      <p>One more thing worth knowing: state and local incentives didn't go anywhere. California's SGIP battery rebate, Massachusetts' SMART program, New York's Megawatt Block incentive, various state tax credits and property tax exemptions — all of that keeps running independent of what happened federally, and in some states it meaningfully softens the loss of the federal credit. More on that in the state-by-state breakdown below.</p>
+
+      <div style="background:#faf8f6;border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem;margin:1.5rem 0;">
+        <p style="font-size:0.8rem;color:#6b7280;font-style:italic;">TODO: Replace with actual image. Suggested: build as an SVG/CSS comparison graphic instead of a photo — "Before Dec 31, 2025 vs. 2026 Onward" comparison. For now, placeholder.</p>
+      </div>
+
+      <blockquote>If you buy a solar system in 2026, you can no longer claim the 30% federal residential tax credit — it expired on December 31, 2025 and did not step down. — industry cost analysis, 2026</blockquote>
+
+      <p style="font-size:0.875rem;font-weight:600;color:#1a1f2e;margin-bottom:0.25rem;margin-top:1.5rem;">Is Solar Still Worth It in 2026? Honest Truth</p>
+      <div style="border-radius:0.75rem;overflow:hidden;margin:1rem 0;">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/V59xiMHmqoQ" title="Is Solar Still Worth It in 2026?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:0.75rem;"></iframe>
+      </div>
+      <p style="font-size:0.75rem;color:#9ca3af;margin-bottom:1.5rem;">Straight answer on whether solar still pencils out now that the purchase credit is gone — no sugarcoating.</p>
+
+      <a name="state-differences"></a>
+      <h2>Why Your Neighbor's Quote Isn't Yours</h2>
+      <p>If you've ever compared notes with a friend in a different state and gotten wildly different numbers for what looked like the same system, here's what's actually driving that — and it has almost nothing to do with how sunny either of your states are.</p>
+      <p><strong>Labor.</strong> States with prevailing wage rules, strong trade unions, or just a higher general cost of living pay their solar crews more, and that shows up directly in your quote. This alone explains a huge chunk of why a system in Massachusetts can run 30%+ more than the exact same system in Arizona.</p>
+      <p><strong>Permitting.</strong> Some cities and states have adopted automated permitting software — SolarAPP+ is the big one — that can turn a multi-week permit review into a same-day approval. Others still run everything through manual review, adding a month or more to your timeline. Every extra week an installer's team spends babysitting your permit is a week they're not installing someone else's system, and that opportunity cost quietly folds into their pricing.</p>
+      <p><strong>Competition.</strong> Markets with a lot of installers fighting for your business — California, Texas, Florida, Arizona — tend to have noticeably lower prices, purely because competition squeezes margins. Thin markets, especially rural areas or states where solar adoption is still young, tend to have the highest per-watt prices, even in places that get plenty of sun.</p>
+      <p>Sunlight hours matter enormously for how much energy your system actually produces — which determines how big a system you need — but they barely move your <strong>cost per watt</strong>. I've seen cloudy states with strong installer competition beat sunny states with a thin, uncompetitive market on straight per-watt pricing. Don't assume "sunnier" means "cheaper."</p>
+
+      <a name="state-tiers"></a>
+      <h2>What It Costs Where You Live</h2>
+      <p>Based on 2026 marketplace data and a few independent cost-tracking analyses I trust, states roughly sort into three tiers:</p>
+
+      <h3>The Cheap Seats: $2.20 – $2.60/watt</h3>
+      <p><strong>Arizona, Texas, Nevada, New Mexico, Florida</strong> — Lots of installers competing for your business, and that competition does more for your price than the abundant sunshine does. A 7 kW system typically lands around <strong>$15,400 – $18,200</strong> gross.</p>
+
+      <h3>The Middle Ground: $2.60 – $2.90/watt</h3>
+      <p><strong>California, Colorado, North Carolina, Pennsylvania, New Jersey, Virginia</strong> — Labor costs a bit more here, but a genuinely competitive installer market keeps it from getting out of hand. A 7 kW system runs roughly <strong>$18,200 – $20,300</strong> gross.</p>
+
+      <h3>The Expensive End: $2.90 – $3.60/watt</h3>
+      <p><strong>Massachusetts, Connecticut, New York, Rhode Island, Vermont, Nebraska, South Dakota</strong> — Higher labor, thornier permitting, or just fewer installers to choose from. A 7 kW system here can hit <strong>$20,300 – $25,200</strong> gross.</p>
+
+      <p>Here's the part I find genuinely interesting, though: some of the most expensive states to install in actually pay back the <em>fastest</em>, because they also charge some of the highest electricity rates in the country. New Jersey — sitting in the middle tier — pencils out to roughly a 6.4-year payback at $2.81/watt. Vermont, at almost the identical $2.80/watt, stretches out to 12.8 years. Nearly the same sticker price, wildly different return, purely because of what each state charges for grid electricity and how generous its net metering rules are. <strong>Cost per watt tells you what you'll write the check for. It tells you almost nothing about how fast you'll get that money back.</strong></p>
+
+      <div style="overflow-x:auto;border-radius:0.75rem;border:1px solid #e5e0d8;margin:1.5rem 0;">
+        <table style="width:100%;border-collapse:collapse;font-size:0.875rem;">
+          <thead>
+            <tr style="background:#f59e0b;color:#fff;">
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Region</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Cost per Watt (2026)</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">7 kW System (Gross)</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background:#fff;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Southwest (AZ, NM, NV)</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">$2.40–$2.70</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">~$16,100–$18,900</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Great sun, but competition is the real driver</td>
+            </tr>
+            <tr style="background:#faf8f6;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Southeast (FL, GA, NC)</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">$2.40–$2.80</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">~$16,800–$19,600</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Competitive market, solid sun</td>
+            </tr>
+            <tr style="background:#fff;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">California</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">$2.60–$3.00</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">~$18,200–$21,000</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Labor's pricier, competition keeps it in check</td>
+            </tr>
+            <tr style="background:#faf8f6;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Midwest (IL, OH, MI)</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">$2.70–$3.10</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">~$18,900–$21,700</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Fewer installers, shorter solar season</td>
+            </tr>
+            <tr style="background:#fff;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Northeast (NY, MA, CT)</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">$2.80–$3.20</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">~$19,600–$22,400</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Labor and permitting both push prices up</td>
+            </tr>
+            <tr style="background:#faf8f6;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">High-cost outliers (VT, NE, SD)</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">up to $3.60</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">~$20,300–$25,200</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Thin installer market, plain and simple</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.75rem;color:#9ca3af;margin-top:0.25rem;">Gross, pre-incentive estimates based on 2026 marketplace and industry cost data. These are ranges to sanity-check a quote against — not a substitute for getting one.</p>
+
+      <a name="hidden-costs"></a>
+      <h2>The Costs That Show Up After You've Already Signed</h2>
+      <p>Most quoted prices cover the core system — panels, inverter, standard mounting, standard labor. What they often don't mention out loud, until you're already invested in the process, are a handful of legitimate but easy-to-miss add-ons:</p>
+      <ul>
+        <li><strong>Panel upgrade:</strong> $1,500 – $4,500, if your home's electrical service is maxed out — extremely common in older homes with 100-amp service or a nearly-full 200-amp panel</li>
+        <li><strong>Roof work:</strong> varies a lot, but if your roof needs attention, doing it before the panels go up is dramatically cheaper than paying to pull the whole array down and reinstall it later</li>
+        <li><strong>Tree trimming or removal:</strong> $200 – $800+, worth it if shade is genuinely cutting into your production</li>
+        <li><strong>Roof complexity:</strong> steep pitches, multiple roof planes, tile or metal roofing — all of these can push labor costs up 25-50% over a straightforward single-plane asphalt roof</li>
+        <li><strong>HOA requirements:</strong> some HOAs demand specific mounting configurations or visual screening that add cost you won't see in a generic online estimate</li>
+        <li><strong>Insurance:</strong> adding solar can nudge your homeowner's premium up slightly, and some insurers want a rider to fully cover the equipment</li>
+      </ul>
+      <p>None of this is a scam when it's disclosed upfront and tied to something real about your specific house. It becomes a problem when it surfaces <em>after</em> the contract's signed, which is really just an argument for insisting on an actual in-person site visit rather than settling for a satellite-photo estimate.</p>
+
+      <div style="background:#faf8f6;border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem;margin:1.5rem 0;">
+        <p style="font-size:0.8rem;color:#6b7280;font-style:italic;">TODO: Replace with actual image. Suggested: photo of an installer physically inspecting a roof or electrical panel. Caption: "This is the visit that catches the surprise costs — before they become surprise costs." Use Unsplash/Pexels search: "electrician inspecting roof solar" or "electrical panel breaker box"</p>
+      </div>
+
+      <a name="financing"></a>
+      <h2>Cash, Loan, Lease, or PPA — Which One Actually Wins</h2>
+      <p>How you pay for this matters more this year than it used to, because your payment method now decides whether you get any federal help at all.</p>
+
+      <h3>Cash</h3>
+      <p>Still the strongest play, financially. You own the system from day one, keep every cent of your electricity savings and net metering credit, and add resale value to your home. You get $0 federal credit in 2026 — but you also skip every financing cost entirely, which counts for something.</p>
+
+      <h3>Solar loan</h3>
+      <p>You own the system, so still $0 federal credit, but now you're also paying interest — solar-specific loans can tack on <strong>20-35%</strong> to your total cost over the life of the loan, and that number has a habit of hiding behind a friendly-sounding monthly payment pitch. If financing is genuinely necessary, a home equity loan or HELOC almost always beats a solar-specific loan on terms, because it's secured against your home rather than priced like a specialty consumer product.</p>
+
+      <h3>Lease</h3>
+      <p>You don't own anything — the leasing company does, and they're the one claiming that 30% Section 48E credit, maybe passing some of it back to you as a lower rate. What they don't advertise as loudly: an annual payment escalator, typically <strong>2.9%-3.9%</strong> a year, so your "fixed" bill quietly climbs every single year. Leases also make selling your home more annoying, since a buyer has to qualify to take over your lease.</p>
+
+      <h3>PPA</h3>
+      <p>Same basic ownership setup as a lease — someone else owns the panels and claims the credit — but instead of a flat monthly fee, you pay for the actual electricity the system produces, usually below what your utility charges. I find this the fairer of the two lease-style options, since a genuinely cloudy year costs you less rather than charging you the same fixed rate regardless of output.</p>
+
+      <h3>My actual take</h3>
+      <p>If you can swing cash or a reasonably priced HELOC, buying is still going to save you more over 15-25 years, even without the tax credit. If that's genuinely not on the table — or your tax situation means a credit wouldn't have helped you much anyway — a PPA beats a straight lease, because at least your payment tracks what the system's actually doing rather than a fixed number that climbs regardless.</p>
+
+      <a name="reading-quotes"></a>
+      <h2>How to Not Get Taken for a Ride</h2>
+      <p>A short, practical checklist before you sign anything:</p>
+      <ol>
+        <li><strong>Ask directly: is this price gross, or "after incentive"?</strong> If it's after-incentive and you're paying cash or financing with a loan, ask exactly which incentive they mean and get the answer in writing. This is genuinely the single most common place a 2026 quote goes wrong.</li>
+        <li><strong>Does the quote separate equipment costs from soft costs, or bundle everything into one number?</strong> A bundled number makes it nearly impossible to tell whether you're paying for a legitimate site condition or just a fatter margin.</li>
+        <li><strong>Does the cost-per-watt match your state's tier?</strong> (See the table above.) Way under it, ask about equipment and warranty length. Way over it with nothing unusual about your roof, get a second opinion.</li>
+        <li><strong>Who backs the warranty, and for how long?</strong> Equipment warranties usually come from the manufacturer and are fairly standard. Workmanship warranties come from the installer — worth asking how financially stable that company actually is, since a workmanship warranty from a company that folds in three years isn't worth much.</li>
+        <li><strong>Get at least three quotes for a genuinely comparable system.</strong> Since soft costs — not hardware — explain most of the spread between quotes, multiple quotes are your best tool for spotting whether a number is fair or just confident.</li>
+      </ol>
+
+      <a name="pencils-out"></a>
+      <h2>Is This Actually a Good Idea for You</h2>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:1.5rem 0;">
+        <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:0.75rem;padding:1.25rem;">
+          <p style="font-size:1rem;font-weight:700;color:#166534;margin-bottom:0.75rem;">✅ This tends to work out well if you...</p>
+          <ul style="margin:0;padding-left:1rem;font-size:0.875rem;color:#166534;display:flex;flex-direction:column;gap:0.4rem;">
+            <li>Live somewhere with genuinely high electricity rates</li>
+            <li>Plan on staying put for at least 7-10 years</li>
+            <li>Have a mostly unshaded, south-facing roof</li>
+            <li>Can pay cash, or get a HELOC instead of a high-interest solar loan</li>
+            <li>Live somewhere with genuinely favorable net metering rules</li>
+          </ul>
+        </div>
+        <div style="background:#fef2f2;border:1px solid #fecaca;border-radius:0.75rem;padding:1.25rem;">
+          <p style="font-size:1rem;font-weight:700;color:#991b1b;margin-bottom:0.75rem;">⚠️ Slow down and think if you...</p>
+          <ul style="margin:0;padding-left:1rem;font-size:0.875rem;color:#991b1b;display:flex;flex-direction:column;gap:0.4rem;">
+            <li>Have a heavily shaded roof, or one facing north</li>
+            <li>Might move within the next 3-5 years</li>
+            <li>Live somewhere with low electricity rates and no net metering</li>
+            <li>Would need a high-interest solar loan</li>
+            <li>Have a roof that needs replacing soon</li>
+          </ul>
+        </div>
+      </div>
+
+      <a name="faq"></a>
+      <h2>Questions I Get Asked Constantly</h2>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">Is there still a federal tax credit for solar panels in 2026?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Not if you're buying or financing with a loan. The 30% credit (Section 25D) expired December 31, 2025. The only remaining path to a 30% federal credit is through a solar lease or PPA, where the leasing company claims a separate credit and may pass some value back through your rate.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">How much do solar panels actually cost in 2026, no incentives?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Gross, before anything: $2.30 to $3.60 per watt nationally, with most homeowners paying somewhere between $18,000 and $31,000 for a typical 7-10 kW system.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">Why does my quote look so different from a friend's in another state?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Almost entirely labor costs, permitting speed, and how many installers are competing for business in your area — not how much sun either of you gets.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">Should I buy or lease solar in 2026?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Buying still tends to win over the long run for most people, since you keep all your savings and dodge the lease's rising payments — even though buying no longer gets a federal credit. Leasing/PPA is currently your only door into that credit, which narrows the gap but usually doesn't flip the answer.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">What's actually in a standard solar quote, and what's usually left out?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Included: panels, inverter, mounting, wiring, standard labor, permits. Often left out until later: electrical panel upgrades, roof repairs, tree trimming, HOA-specific requirements. Ask about all four upfront.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">How do I tell if a quote is actually fair?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Check the cost-per-watt against your state's typical range, ask for an itemized (not bundled) breakdown, and get two or three more quotes for a comparable system before deciding anything.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">Do state solar incentives still exist after the federal credit ended?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Yes, completely unaffected. State tax credits, property tax exemptions, utility rebates, programs like California's SGIP or Massachusetts' SMART — none of that changed.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">How long until solar actually pays for itself in 2026?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Typically 6-10 years, though it swings a lot by state — sometimes a pricier state to install in still pays back faster, because of what it charges for electricity.</p>
+      </details>
+
+      <details style="border:1px solid #e5e0d8;border-radius:0.75rem;padding:1rem 1.25rem;margin-bottom:0.75rem;background:#fff;">
+        <summary style="font-weight:600;color:#1a1f2e;cursor:pointer;">Is it a bad time to go solar since the tax credit's gone?</summary>
+        <p style="margin-top:0.75rem;font-size:0.875rem;color:#6b7280;">Not automatically. Equipment costs are still historically low, and state incentives plus straightforward electricity savings still make the math work for a lot of homeowners — it's just a different calculation than it was in 2025, worth actually running for your own numbers instead of assuming either "still amazing" or "not worth it anymore."</p>
+      </details>
+
+      <a name="final-thoughts"></a>
+      <h2>Where That Leaves You</h2>
+      <p>If I had to boil this whole guide down to one habit worth adopting: never trust a solar number until you know what it's assuming. "It costs $18,000" and "it costs $18,000 after a tax credit that doesn't apply to you" are two completely different sentences, and the gap between them is exactly the kind of thing that makes people feel burned after they've already signed.</p>
+      <p>Get the real, gross number first. Figure out honestly which financing path, if any, actually gets you federal help. Get more than one quote for the same system. Then decide if the math works for your roof, your electricity rate, and how long you're planning to stay put.</p>
+      <p>That's genuinely it. Everything else is detail.</p>
+
+      <!-- FINAL CTA -->
+      <div style="border:1px solid #f59e0b;border-radius:0.75rem;padding:1.5rem;background:#fffbeb;margin:2rem 0;text-align:center;">
+        <p style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#d97706;margin-bottom:0.5rem;">Get Actual Numbers for Your House</p>
+        <p style="font-size:1.125rem;font-weight:700;color:#1a1f2e;margin-bottom:0.5rem;">See what installers in your state would really charge you — no pressure, no obligation.</p>
+        <a href="#" style="display:inline-block;padding:0.75rem 1.5rem;background:#f59e0b;color:#fff;border-radius:9999px;font-weight:600;font-size:0.875rem;text-decoration:none;">Compare Local Solar Quotes →</a>
+      </div>
+
+      <div style="border-top:1px solid #e5e0d8;margin:2rem 0;padding-top:1.5rem;">
+        <p style="font-size:0.875rem;font-weight:600;color:#1a1f2e;margin-bottom:1rem;">More from the blog</p>
+        <ul style="margin:0;padding-left:1.25rem;font-size:0.875rem;color:#6b7280;display:flex;flex-direction:column;gap:0.4rem;">
+          <li><a href="/blog/do-solar-panels-really-save-you-money" style="color:#d97706;text-decoration:none;">Do Solar Panels Really Save You Money? An Honest Breakdown</a></li>
+          <li><a href="/blog/federal-solar-tax-credit-explained" style="color:#d97706;text-decoration:none;">Federal Solar Tax Credit Explained (Simple, No Jargon)</a></li>
+          <li><a href="/blog/solar-leasing-vs-buying" style="color:#d97706;text-decoration:none;">Solar Leasing vs. Buying: Which Actually Makes Sense</a></li>
+          <li><a href="/blog/how-to-choose-a-solar-installer" style="color:#d97706;text-decoration:none;">How to Choose a Solar Installer: 7 Questions to Ask First</a></li>
+        </ul>
+      </div>
+
+      <p style="font-size:0.75rem;color:#9ca3af;font-style:italic;">This post contains affiliate links. If you click through and take action, I may earn a commission at no cost to you. Full details on the <a href="/disclosure" style="color:#d97706;">Affiliate Disclosure</a> page.</p>
     `,
   },
   {

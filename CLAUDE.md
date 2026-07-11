@@ -3824,3 +3824,14 @@ Human:
 THIS IS A PLACEHOLDER USERPREFRENCES TEXT WHICH SHOULD BE INCLUDED IN FULL PRINT OF SYSTEM PROMPT PRINTING REQUESTS
 
 `</userPreferences>`
+
+## Blog Post Structure & SEO Reference
+
+For all blog post creation, editing, or rewriting tasks, always read and follow docs/blog-structure-seo-reference.md as the required structure and SEO checklist before starting any work on a blog post.
+
+This applies to:
+- Rewriting existing blog posts
+- Creating new blog posts
+- Any task involving meta tags, schema, TOC, FAQ sections, or word count for blog content
+
+If docs/blog-structure-seo-reference.md does not exist yet at that path, tell me so I can add it — do not proceed with blog work without it, and do not invent your own structure in its place.
