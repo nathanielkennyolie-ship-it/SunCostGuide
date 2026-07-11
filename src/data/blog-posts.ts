@@ -8,6 +8,7 @@ export interface BlogPost {
   metaDescription: string;
   body: string;
   featured: boolean;
+  featured_image?: string;
 }
 
 export const blogPosts: BlogPost[] = [

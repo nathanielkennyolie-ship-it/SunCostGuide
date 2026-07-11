@@ -104,6 +104,7 @@ export default function CategoryPage({ name, description, slug }: Props) {
                 excerpt={post.metaDescription}
                 date={post.date}
                 readTime={post.readTime}
+                image={post.featured_image}
               />
             ))}
           </div>
