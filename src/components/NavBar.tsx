@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/calculator", label: "Calculator" },
   { href: "/cost-and-savings", label: "Cost & Savings" },
   { href: "/installer-reviews", label: "Reviews" },
+  { href: "/about", label: "About" },
 ];
 
 export default function NavBar() {
