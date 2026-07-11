@@ -20,6 +20,13 @@ export default function AboutPage() {
               <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-amber-500 rounded-full" />
 
               <div className="space-y-6 text-lg leading-relaxed text-ink">
+                <img
+                  src="/images/Kenny.webp"
+                  alt="Nathaniel Kenny Olie, founder of SunCostGuide"
+                  width={160}
+                  height={160}
+                  className="rounded-full mx-auto lg:mx-0 mb-6"
+                />
                 <p className="font-display text-2xl lg:text-3xl font-semibold tracking-tight">
                   I&apos;m not a solar installer, and I don&apos;t work for one.
                 </p>
