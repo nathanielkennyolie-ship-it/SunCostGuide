@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const navLinks = [
   { href: "/", label: "Home" },
+  { href: "/blog", label: "Blog" },
+  { href: "/calculator", label: "Calculator" },
   { href: "/cost-and-savings", label: "Cost & Savings" },
   { href: "/installer-reviews", label: "Reviews" },
-  { href: "/calculator", label: "Calculator" },
-  { href: "/about", label: "About" },
 ];
 
 export default function NavBar() {

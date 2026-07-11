@@ -1,13 +1,12 @@
-import type { Metadata } from "next";
-import SolarCalculator from "@/components/SolarCalculator";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Solar Savings Calculator",
-  description:
-    "Estimate your monthly solar savings and payback period in 30 seconds. No email required, no sales follow-up.",
-};
+import SolarCalculator from "@/components/SolarCalculator";
+import LeadCapture from "@/components/LeadCapture";
+import { useState } from "react";
 
 export default function CalculatorPage() {
+  const [showLeadCapture, setShowLeadCapture] = useState(false);
+
   return (
     <div className="pt-24 lg:pt-32 pb-24 lg:pb-32">
       <div className="content-width">
@@ -17,13 +16,19 @@ export default function CalculatorPage() {
           </h1>
           <p className="mt-4 text-lg text-ink-muted leading-relaxed">
             A rough estimate based on your state, electric bill, and roof
-            conditions. No email, no phone call, no follow-up.
+            conditions. No email required.
           </p>
         </div>
 
         <div className="mt-12 max-w-xl mx-auto">
-          <SolarCalculator />
+          <SolarCalculator onComplete={() => setShowLeadCapture(true)} />
         </div>
+
+        {showLeadCapture && (
+          <div className="mt-12 max-w-lg mx-auto">
+            <LeadCapture />
+          </div>
+        )}
 
         <div className="mt-16 max-w-2xl mx-auto">
           <h2 className="font-display text-xl font-semibold text-ink mb-4">

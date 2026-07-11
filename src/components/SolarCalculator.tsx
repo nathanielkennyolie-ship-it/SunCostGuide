@@ -4,7 +4,11 @@ import { useState } from "react";
 import { calculateSavings, stateOptions } from "@/data/calculator";
 import type { CalculatorInput, CalculatorResult } from "@/data/calculator";
 
-export default function SolarCalculator() {
+interface Props {
+  onComplete?: () => void;
+}
+
+export default function SolarCalculator({ onComplete }: Props) {
   const [input, setInput] = useState<CalculatorInput>({
     state: "CA",
     monthlyBill: 150,
@@ -18,6 +22,7 @@ export default function SolarCalculator() {
     setTimeout(() => {
       setResult(calculateSavings(input));
       setCalculating(false);
+      onComplete?.();
     }, 400);
   };
 
@@ -133,8 +138,8 @@ export default function SolarCalculator() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   { label: "Estimated System Size", value: `${result.estimatedSystemSizeKw} kW` },
-                  { label: "Estimated Cost (before tax credit)", value: `$${result.estimatedCost.toLocaleString()}` },
-                  { label: "After 30% Tax Credit", value: `$${Math.round(result.estimatedCost * 0.7).toLocaleString()}` },
+                  { label: "Estimated Cost (cash purchase)", value: `$${result.estimatedCost.toLocaleString()}` },
+                  { label: "Federal Credit (2026)", value: "Purchases: $0" },
                 ].map((item) => (
                   <div
                     key={item.label}

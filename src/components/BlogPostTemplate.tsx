@@ -15,6 +15,23 @@ export default function BlogPostTemplate({ post }: { post: BlogPost }) {
   return (
     <article className="content-width py-24 lg:py-32">
       <div className="max-w-3xl mx-auto">
+        <nav className="flex items-center gap-2 text-sm text-ink-muted mb-8">
+          <Link href="/blog" className="hover:text-amber-600 transition-colors">
+            Blog
+          </Link>
+          <span>/</span>
+          <Link
+            href={`/${post.categorySlug}`}
+            className="hover:text-amber-600 transition-colors"
+          >
+            {post.category}
+          </Link>
+          <span>/</span>
+          <span className="text-ink truncate max-w-[200px]">
+            {post.title}
+          </span>
+        </nav>
+
         <div className="flex items-center gap-3 text-sm text-ink-muted mb-6">
           <Link
             href={`/${post.categorySlug}`}

@@ -45,7 +45,7 @@ export default function HomeHero() {
                     {[
                       ["Avg. System Cost", "$20,000–$30,000"],
                       ["Payback Period", "7–12 years"],
-                      ["Tax Credit", "30% Federal"],
+                      ["Fed. Credit (2026)", "Purchases: $0"],
                       ["Lifetime Savings", "$35,000–$60,000"],
                     ].map(([label, value]) => (
                       <div

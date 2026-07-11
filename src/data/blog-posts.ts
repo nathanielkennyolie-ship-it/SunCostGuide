@@ -54,16 +54,18 @@ export const blogPosts: BlogPost[] = [
     title: "Solar Panel Cost in 2026: What You'll Actually Pay",
     category: "Cost & Savings",
     categorySlug: "cost-and-savings",
-    date: "June 15, 2026",
+    date: "July 11, 2026",
     readTime: "12 min read",
     metaDescription:
-      "A state-by-state breakdown of real installation prices, financing options, and hidden costs most salespeople won't mention.",
+      "A state-by-state breakdown of real installation prices, financing options, and hidden costs — with a clear note on how the federal tax credit no longer applies to purchases.",
     featured: true,
     body: `
-      <p>The solar industry has a transparency problem. Most websites quote a national average that doesn't reflect what you'll actually pay in your state, with your roof, on your timeline. This guide cuts through the averages and gives you the real numbers for 2026.</p>
+      <p>The solar industry has a transparency problem. Most websites quote a national average that doesn't reflect what you'll actually pay in your state, with your roof, on your timeline. And many still subtract a federal tax credit that no longer exists for cash and loan purchases.</p>
+      <p>Here's the real 2026 picture — gross prices, no imaginary discounts.</p>
 
       <h2>National Average Cost (2026)</h2>
-      <p>Before the federal tax credit, the average residential solar installation costs between $2.50 and $3.10 per watt. For a typical 7-10 kW system, that works out to $17,500 to $31,000 before incentives.</p>
+      <p>The average residential solar installation costs between $2.50 and $3.10 per watt — gross price, before any incentives. For a typical 7-10 kW system, that works out to $17,500 to $31,000.</p>
+      <p><strong>Important:</strong> There is currently no federal tax credit for cash or loan purchases. The Section 25D credit expired December 31, 2025. If a website or salesperson quotes a "net price after federal tax credit," that credit does not exist for you as a buyer. The only way to have a federal credit applied to your project in 2026 is through a lease or PPA (the leasing company claims Section 48E instead).</p>
 
       <h2>What Drives Price Differences by State</h2>
       <p>Three factors determine what you'll pay: labor costs (higher in states with prevailing wage requirements), permitting fees (varies wildly by municipality), and competition (more installers = better prices). California, Texas, and Florida are the most competitive markets. Rural areas and states with fewer installers typically see higher per-watt prices.</p>
@@ -72,91 +74,112 @@ export const blogPosts: BlogPost[] = [
       <p>Most quoted prices include the panels, inverter, and installation. Watch for these potential extras: electrical panel upgrade ($1,000-3,000 if needed), roof repair or replacement (varies), tree trimming ($200-800), and main panel upgrade ($1,500-3,000 for older homes).</p>
 
       <h2>Financing vs. Cash Purchase</h2>
-      <p>Cash purchases save you the most money long-term. Solar loans add 20-35% to the total cost through interest and fees — often hidden in the quoted price. If you can't pay cash, a home equity loan or HELOC typically offers better terms than a solar-specific loan.</p>
+      <p>Cash purchases save you the most money long-term. Solar loans add 20-35% to the total cost through interest and fees — often hidden in the quoted price. If you can't pay cash, a home equity loan or HELOC typically offers better terms than a solar-specific loan. Note that a lease or PPA is the only path to any federal tax benefit on your project.</p>
 
       <h2>State-by-State Cost Ranges (2026)</h2>
-      <p>Using NREL's latest data, here are rough cost ranges per watt by region: Southwest (AZ, NM, NV): $2.40-2.70/watt — best sun + competitive market. California: $2.60-3.00/watt — high labor costs offset by high competition. Northeast (NY, MA, CT): $2.80-3.20/watt — higher labor, slower permitting. Southeast (FL, GA, NC): $2.40-2.80/watt — competitive, good sun. Midwest (IL, OH, MI): $2.70-3.10/watt — less competition, shorter season. Northwest (OR, WA): $2.60-3.00/watt — lower sun hours offset by good rates.</p>
+      <p>Using NREL's latest data, here are rough gross cost ranges per watt by region: Southwest (AZ, NM, NV): $2.40-2.70/watt — best sun + competitive market. California: $2.60-3.00/watt — high labor costs offset by high competition. Northeast (NY, MA, CT): $2.80-3.20/watt — higher labor, slower permitting. Southeast (FL, GA, NC): $2.40-2.80/watt — competitive, good sun. Midwest (IL, OH, MI): $2.70-3.10/watt — less competition, shorter season. Northwest (OR, WA): $2.60-3.00/watt — lower sun hours offset by good rates.</p>
 
-      <blockquote>The best way to get an accurate price is to get at least three quotes from local installers, compare equipment proposals line by line, and ask about all fees before signing.</blockquote>
+      <blockquote>The best way to get an accurate price is to get at least three quotes from local installers, compare equipment proposals line by line, and ask about all fees before signing. If a quote shows a "post-tax-credit" price for a purchase, that number is misleading — crunched the gross price instead.</blockquote>
     `,
   },
   {
     slug: "do-solar-panels-really-save-you-money",
-    title: "Do Solar Panels Really Save You Money? An Honest Breakdown",
+    title: "Do Solar Panels Really Save You Money? An Honest Breakdown (2026)",
     category: "Cost & Savings",
     categorySlug: "cost-and-savings",
-    date: "June 8, 2026",
+    date: "July 11, 2026",
     readTime: "14 min read",
     metaDescription:
-      "An honest look at when solar panels save you money, when they don't, and how to calculate your actual return on investment.",
+      "The 2026 tax credit changes mean the old math no longer applies. Here's the real 20-year calculation for cash purchases, loans, and leases.",
     featured: true,
     body: `
-      <p>The short answer: yes, for most homeowners in most states, solar panels save money over the 25-30 year lifespan of a system. But the amount you save depends almost entirely on three factors: your electricity rates, your sun exposure, and how you pay for the system.</p>
+      <p>The short answer: yes, for most homeowners in most states, solar panels save money over the 25-30 year lifespan of a system. But the amount you save depends almost entirely on your electricity rates, your sun exposure, and — more than ever in 2026 — how you pay for the system.</p>
+
+      <h2>What Changed in 2026</h2>
+      <p>The federal Residential Clean Energy Credit (Section 25D) expired December 31, 2025 for cash and loan purchases. If you buy your system outright in 2026, you get zero federal tax credit. Only leases and PPAs can access the 30% credit now, via Section 48E (claimed by the leasing company). This affects the math significantly.</p>
 
       <h2>When Solar Saves You the Most</h2>
       <p>Solar is most profitable in states with high electricity rates (California, Massachusetts, Hawaii, New York, Connecticut). A homeowner paying $0.25/kWh in California will save significantly more than someone paying $0.10/kWh in Louisiana, even with identical systems. The higher your rate, the more each solar-generated kilowatt-hour is worth.</p>
 
       <h2>When Solar Might Not Save You Money</h2>
-      <p>If you have a shaded roof, plan to move within five years, or live in a state with very low electricity rates and no net metering, solar may not pencil out. The same applies if you finance through a high-interest solar loan that eats up your savings in interest payments.</p>
+      <p>If you have a shaded roof, plan to move within five years, or live in a state with very low electricity rates and no net metering, solar may not pencil out. Without the federal credit for purchases, the breakeven point has shifted: expect 8-12 years instead of 5-8.</p>
 
-      <h2>The 20-Year Math</h2>
-      <p>A typical 8 kW system in a moderate state costs about $21,000 after the federal tax credit. Over 20 years, that system might generate $45,000-60,000 worth of electricity at current rates — a net savings of $24,000-39,000. Your actual results depend on rate escalation, panel degradation, and maintenance costs.</p>
+      <h2>The 20-Year Math (2026)</h2>
+      <p>Cash purchase of an 8 kW system: about $22,000 (no tax credit available). Over 20 years, that system might generate $45,000-60,000 worth of electricity at current rates — a net savings of $23,000-38,000. Payback period: roughly 10 years.</p>
+      <p>Lease of the same system: $0 upfront, ~$80-120/month starting lease payment (escalating 2.9%/year). Net savings over 20 years: roughly $8,000-15,000. Less total savings than buying, but zero upfront risk and a federal credit is still applied (claimed by the lessor).</p>
+      <p>PPA (power purchase agreement): similar to a lease but payments track production. Usually better economics than a flat lease because if the system underperforms, you pay less.</p>
 
       <h2>The Bottom Line</h2>
-      <p>Solar is a good long-term investment for most homeowners, but it's not a guaranteed win. Run the numbers for your specific situation before committing. That's exactly what our calculator is for.</p>
+      <p>Solar remains a good long-term investment for most homeowners, but the 2026 rules matter. Cash buyers lose the 30% credit but can still come out ahead over 20 years if they stay put. Lease/PPA customers sacrifice long-term upside for zero upfront cost and still get a federal credit applied indirectly. Run your specific numbers before committing — that's exactly what our calculator is for.</p>
     `,
   },
   {
     slug: "federal-solar-tax-credit-explained",
-    title: "Federal Solar Tax Credit Explained (Simple, No Jargon)",
+    title: "Federal Solar Tax Credit Explained (Simple, No Jargon) — 2026 Update",
     category: "Incentives & Rebates",
     categorySlug: "incentives-and-rebates",
-    date: "June 5, 2026",
+    date: "July 11, 2026",
     readTime: "8 min read",
     metaDescription:
-      "How the 30% federal tax credit actually works, who qualifies, and how to claim it on your taxes without an accountant.",
+      "The 30% federal solar tax credit (Section 48E) still exists in 2026 — but only through a lease or PPA. Cash and loan purchases no longer qualify after the One Big Beautiful Bill Act.",
     featured: true,
     body: `
-      <p>The federal solar tax credit (officially the Residential Clean Energy Credit) lets you deduct 30% of your solar installation cost from your federal income taxes. It's the single biggest incentive available to most homeowners. Here's how it actually works, without the jargon.</p>
+      <p>If you've heard there's a 30% federal solar tax credit and you're wondering whether you qualify in 2026, the answer depends entirely on <em>how</em> you buy solar. The old rules changed when the One Big Beautiful Bill Act passed in July 2025.</p>
 
-      <h2>Who Qualifies</h2>
-      <p>You qualify if you own your system (purchased cash or financed — leases and PPAs don't qualify) and install it at your primary or secondary residence in the United States. The system must be new and placed in service between 2022 and 2032.</p>
+      <h2>The Short Version</h2>
+      <p>The Residential Clean Energy Credit (Section 25D) — which let homeowners deduct 30% of their solar installation from their taxes — expired December 31, 2025 for cash and loan purchases. It is no longer available if you own your system.</p>
+      <p>However, a separate tax credit still exists under Section 48E. It offers the same 30% rate, but it can only be claimed by the company that owns the system — which means you can only access it through a solar lease or power purchase agreement (PPA).</p>
 
-      <h2>What's Covered</h2>
-      <p>The 30% applies to the full cost of your solar installation: panels, inverters, racking, wiring, labor, permits, and sales tax. Battery storage installed with or without solar also qualifies, as long as it has a capacity of at least 3 kWh.</p>
+      <h2>Who Can Get the 30% Credit in 2026</h2>
+      <p>Only homeowners who sign a lease or PPA. The leasing company claims the 30% federal credit via Section 48E, and they use it to offset their costs — which can mean a lower monthly payment for you. You never see the tax credit on your own return, but you benefit indirectly through reduced lease/PPA pricing.</p>
+      <p>If you buy the system with cash or a loan: you get zero federal tax credit. Period.</p>
 
-      <h2>How You Claim It</h2>
-      <p>When you file your taxes, you fill out IRS Form 5695 and enter the credit amount on your 1040. The credit reduces your tax bill dollar-for-dollar. If your tax liability is less than the credit amount, the remainder rolls over to the next tax year.</p>
+      <h2>What About State Incentives?</h2>
+      <p>State and local incentives are a separate question. Many states still offer rebates, SRECs, property tax exemptions, and net metering regardless of whether you bought or leased. Check with your state energy office for current programs.</p>
 
-      <h2>Common Misconceptions</h2>
-      <p>It's not a rebate — you don't get a check. It reduces taxes you owe. You need sufficient tax liability to benefit (if you owe $5,000 in taxes and your credit is $6,000, you save $5,000 this year and $1,000 rolls over). And no, it doesn't affect your state tax refund.</p>
+      <h2>Why This Changed</h2>
+      <p>The One Big Beautiful Bill Act restructured clean energy tax incentives. The residential direct-purchase credit (Section 25D) was allowed to sunset, while the commercial/investor credit (Section 48E) was preserved and expanded. This effectively shifted solar tax benefits from homeowners to third-party system owners.</p>
 
-      <blockquote>The federal tax credit is scheduled to drop to 26% in 2033 and 22% in 2034, then expire. If you're planning to go solar, doing it sooner rather than later maximizes your savings.</blockquote>
+      <h2>What to Do If You Want Solar in 2026</h2>
+      <p>If you want the lowest total cost over 20 years, a cash purchase may still win — even without the credit — because you avoid interest and lease escalation fees. If you can't afford the upfront cost or want the tax credit applied to your project, a lease or PPA is the only way to capture the 30% federal benefit.</p>
+
+      <blockquote>There is no $0-down, get-the-credit option for purchases in 2026. If a salesperson tells you different, ask them to show you the IRS form number. It will be 48E, not 25D.</blockquote>
     `,
   },
   {
     slug: "solar-leasing-vs-buying",
-    title: "Solar Leasing vs. Buying: Which Actually Makes Sense",
+    title: "Solar Leasing vs. Buying: Which Actually Makes Sense in 2026",
     category: "Cost & Savings",
     categorySlug: "cost-and-savings",
-    date: "June 3, 2026",
+    date: "July 11, 2026",
     readTime: "11 min read",
     metaDescription:
-      "Leasing sounds easier, but buying almost always saves more. Here's the honest comparison of solar leasing versus buying outright.",
-    featured: false,
+      "The 2026 tax credit rules flipped the math. Buying no longer gets a federal credit; leasing is the only path to one. Here's the honest comparison.",
+    featured: true,
     body: `
-      <p>When a solar salesperson offers you a "no money down" option, they're usually offering a lease or power purchase agreement (PPA). These options sound attractive because they remove the upfront cost. But they also remove most of the financial benefit.</p>
+      <p>The old rule of thumb — "buying always saves more than leasing" — is outdated. The One Big Beautiful Bill Act (July 2025) eliminated the federal tax credit for cash and loan purchases starting January 2026. Only leases and PPAs can access the 30% credit now, through a separate program (Section 48E) claimed by the leasing company.</p>
+      <p>This changes the math significantly. Here's the honest 2026 comparison.</p>
 
-      <h2>The Case for Buying</h2>
-      <p>When you buy your system (cash or loan), you own it. That means you get the 30% federal tax credit, you benefit from net metering credits, you don't pay a monthly lease payment, and the system adds to your home's resale value. Over 20 years, buying typically saves 2-3 times more than leasing.</p>
+      <h2>The Case for Buying in 2026</h2>
+      <p>When you buy (cash or loan), you own the system. You get net metering credits, the system adds to resale value, and you pay no monthly lease payment. But you get <strong>zero</strong> federal tax credit. An 8 kW system costing $22,000 stays $22,000 — there's no 30% deduction.</p>
+      <p>Your return comes entirely from avoided electricity costs. Over 20 years in a moderate-rate state, a cash-purchase system might generate $45,000-60,000 in electricity vs. $22,000 upfront — a net of $23,000-38,000. That's still a solid return, but it takes longer to reach than it did with the 30% credit.</p>
 
-      <h2>The Case for Leasing</h2>
-      <p>Leasing makes sense in exactly two scenarios: you don't have the tax liability to benefit from the federal credit, or you don't qualify for a solar loan and can't pay cash. You also avoid maintenance responsibility — though modern systems rarely need significant maintenance.</p>
+      <h2>The Case for Leasing in 2026</h2>
+      <p>Leasing is now the only way to get a federal tax credit applied to your project. The leasing company claims the 30% credit via Section 48E and typically passes some of that value through as lower monthly payments. You pay $0 upfront, get immediate bill savings, and don't worry about maintenance.</p>
+      <p>The tradeoff: leases include annual escalators (typically 2.9-3.9%) that increase your payment over time. The leasing company keeps the tax benefits and most of the long-term value. And selling your home is more complicated — the buyer must qualify to take over the lease.</p>
 
       <h2>The Fine Print on Leases</h2>
-      <p>Leases include annual escalators (typically 2.9-3.9%) that increase your payment every year. They make selling your home more complicated — the buyer must qualify to take over the lease. And the leasing company keeps the tax credits and incentives. You get lower bills, but they get the bulk of the financial benefit.</p>
+      <p>Lease escalators mean that after year 10 you may be paying nearly as much for your lease as you were for your original electric bill. A PPA (power purchase agreement) is often better than a flat lease because your payments are tied to production — if the system underperforms, you pay less. Read the escalator clause carefully before signing anything.</p>
 
-      <blockquote>If you can buy, buy. If you can't, a PPA is usually better than a lease because your payments are tied to production instead of a fixed monthly amount.</blockquote>
+      <h2>The 20-Year Math (2026)</h2>
+      <p>Cash purchase of an 8 kW system: $22,000 upfront, $0 tax credit. At $0.14/kWh with good sun, you save roughly $2,200/year in electricity, giving a 10-year payback and $23,000-38,000 net savings over 20 years.</p>
+      <p>Lease of the same system: $0 upfront, ~$80-120/month lease payment starting, escalating 2.9% annually. Your net monthly savings starts around $40-80 but shrinks each year. Total net savings over 20 years: roughly $8,000-15,000 — less than buying, but with zero upfront risk.</p>
+      <p>A PPA at $0.12/kWh (vs. $0.14 grid) with a 2.5% escalator: similar numbers, but with production-linked payments.</p>
+
+      <h2>Which Makes Sense in 2026?</h2>
+      <p>If you have $22,000 in cash and plan to stay in your home 10+ years, buying still wins on total lifetime savings — even without the tax credit. If you want immediate savings with no upfront cost, leasing is the only way to get any federal tax benefit applied to your project. A PPA is usually better than a fixed lease because payments track production.</p>
+
+      <blockquote>Before 2025, buying was a clear winner for anyone who could afford it. In 2026, that advice needs a qualifier: buy if you can pay cash and stay long-term; lease or PPA if you want zero upfront and the only remaining federal credit.</blockquote>
     `,
   },
   {
@@ -179,7 +202,7 @@ export const blogPosts: BlogPost[] = [
       <p>Solar panel efficiency improves about 0.5-1% per year. Waiting gets you slightly better panels, but you lose years of savings. The financial math overwhelmingly favors installing now rather than waiting for incremental efficiency gains.</p>
 
       <h2>Myth 3: Solar Is Free With "No Money Down" Offers</h2>
-      <p>"No money down" means you're financing or leasing — it's not free. With a solar loan, you're paying interest. With a lease, you're giving up the tax credits and paying an escalator. The total cost over 20 years is almost always higher than buying outright.</p>
+      <p>"No money down" means you're financing or leasing — it's not free. With a solar loan, you're paying interest. With a lease, you're paying an escalator. That said, leasing does have one advantage in 2026: the leasing company can still claim the 30% federal tax credit via Section 48E, whereas cash and loan buyers get zero credit. So the tradeoff has shifted — you're not "giving up" the credit by leasing anymore; the credit simply doesn't exist for purchases. Evaluate the total cost over the contract term before signing anything.</p>
 
       <h2>Myth 4: Net Metering Means You Get Paid for Extra Power</h2>
       <p>Net metering gives you bill credits for excess power you send to the grid — not cash payments. In most states, those credits expire annually or are paid out at the wholesale rate, not the retail rate. Don't count on "selling power back to the grid" as a meaningful income source.</p>
@@ -195,18 +218,80 @@ export const blogPosts: BlogPost[] = [
     title: "Best Solar Companies Compared",
     category: "Installer Reviews",
     categorySlug: "installer-reviews",
-    date: "May 28, 2026",
+    date: "July 11, 2026",
     readTime: "15 min read",
     metaDescription:
       "An honest comparison of the biggest solar installation companies — pricing, warranty, customer satisfaction, and who's actually worth your money.",
-    featured: false,
+    featured: true,
     body: `
       <p>Comparing solar companies is harder than it should be. Every installer claims to be the best, and online reviews are often gamed. This comparison strips out the marketing and focuses on what actually matters: pricing transparency, warranty quality, customer satisfaction, and long-term reliability.</p>
 
       <p>Below is our comparison of the major national installers. Keep in mind that local installers often beat national companies on price and service — always get quotes from both.</p>
 
       <h2>National Installers Compared</h2>
-      <p>The table below summarizes our research across the major national players. Ratings are based on customer reviews, pricing transparency, warranty terms, and overall satisfaction.</p>
+
+      <div style="overflow-x:auto;border-radius:0.75rem;border:1px solid #e5e0d8;">
+        <table style="width:100%;border-collapse:collapse;font-size:0.875rem;">
+          <thead>
+            <tr style="background:#f59e0b;color:#fff;">
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Company</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Price Transparency</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Warranty Terms</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Customer Sat.</th>
+              <th style="padding:0.75rem 1rem;text-align:left;font-weight:600;">Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background:#fff;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Sunrun</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">2/5 — opaque pricing, heavy lease focus</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">25 yr equipment, 10 yr workmanship</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">3.8 / 5</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Decent if you want a lease, but get competing quotes first</td>
+            </tr>
+            <tr style="background:#faf8f6;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Tesla / SolarCity</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">4/5 — online pricing, but changes without notice</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">25 yr equipment, 25 yr workmanship</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">3.5 / 5</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Lowest prices, but post-install support is inconsistent</td>
+            </tr>
+            <tr style="background:#fff;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Momentum Solar</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">3/5 — transparent within proposal, financing-heavy</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">25 yr equipment, 25 yr workmanship</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">4.0 / 5</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Smooth process but limited to east coast states</td>
+            </tr>
+            <tr style="background:#faf8f6;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Palmetto Solar</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">3/5 — clear proposals, but higher price point</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">25 yr equipment, 25 yr workmanship</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">4.2 / 5</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Good warranty and reviews, but premium pricing</td>
+            </tr>
+            <tr style="background:#fff;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">Blue Raven Solar</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">3/5 — competitive pricing, solid financing</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">25 yr equipment, 10 yr workmanship</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">4.0 / 5</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Good mid-range option, but regional availability</td>
+            </tr>
+            <tr style="background:#faf8f6;">
+              <td style="padding:0.75rem 1rem;font-weight:600;color:#1a1f2e;">SunPower (Maxeon)</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">2/5 — premium pricing, complex quoting</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">40 yr equipment, 10 yr workmanship</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">4.3 / 5</td>
+              <td style="padding:0.75rem 1rem;color:#6b7280;">Best panels, best warranty, highest price — buy if budget allows</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin-top:1rem;font-size:0.75rem;color:#6b7280;">Data as of July 2026. Ratings based on aggregated customer reviews across Google, Yelp, and solar-specific platforms. Prices are national averages — actual quotes vary by location.</p>
+
+      <h2>Local vs. National: A Note</h2>
+      <p>In most markets, local installers offer better pricing and service than national chains. They have lower overhead, stronger local relationships, and more accountability. Always get at least one local quote alongside any national installer quote.</p>
     `,
   },
   {
@@ -246,7 +331,7 @@ export const categories = [
   { slug: "cost-and-savings", name: "Cost & Savings", description: "Transparent breakdowns of installation prices, financing, payback periods, and lifetime savings." },
   { slug: "installer-reviews", name: "Installer Reviews", description: "Unbiased reviews of national and local installers based on real customer experiences." },
   { slug: "how-solar-works", name: "How Solar Works", description: "No-jargon explainers on panels, inverters, batteries, net metering, and everything that matters." },
-  { slug: "incentives-and-rebates", name: "Incentives & Rebates", description: "Up-to-date guides on federal tax credits, state rebates, SRECs, and utility programs." },
+  { slug: "incentives-and-rebates", name: "Incentives & Rebates", description: "Up-to-date guides on state rebates, SRECs, utility programs, and the 2026 federal tax credit rules (30% available via lease/PPA only, $0 for purchases)." },
 ];
 
 export function getPostsByCategory(categorySlug: string): BlogPost[] {

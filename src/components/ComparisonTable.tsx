@@ -80,10 +80,10 @@ export default function ComparisonTable({ rows }: { rows: Row[] }) {
               <td className="px-4 py-4 font-semibold text-ink whitespace-nowrap">
                 {row.company}
               </td>
-              <td className="px-4 py-4 text-ink-muted hidden lg:table-cell">
+              <td className="px-4 py-4 text-ink-muted sm:table-cell hidden lg:table-cell">
                 {row.rating}
               </td>
-              <td className="px-4 py-4 text-ink-muted hidden lg:table-cell">
+              <td className="px-4 py-4 text-ink-muted sm:table-cell hidden lg:table-cell">
                 {row.price}
               </td>
               <td className="px-4 py-4 text-ink-muted hidden lg:table-cell">
