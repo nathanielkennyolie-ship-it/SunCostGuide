@@ -60,6 +60,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "What solar panels actually cost in 2026, state by state — with the federal tax credit change explained. No inflated 'after-credit' pricing.",
     featured: true,
+    featured_image: "/images/what-solar-panels-cost-in-2026.webp",
     body: `
       <p>The solar industry has a transparency problem. Most websites quote a national average that doesn't reflect what you'll actually pay in your state, with your roof, on your timeline. And many still subtract a federal tax credit that no longer exists for cash and loan purchases.</p>
 
